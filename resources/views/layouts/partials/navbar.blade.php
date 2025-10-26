@@ -23,6 +23,7 @@
             <div id="switchLang" class="dropdown-menu dropdown-menu-right">
                 <a href="{{ route('lang.switch', ['lang' => 'en']) }}" class="dropdown-item">English</a>
                 <a href="{{ route('lang.switch', ['lang' => 'es']) }}" class="dropdown-item">Español</a>
+                <a href="{{ route('lang.switch', ['lang' => 'la']) }}" class="dropdown-item">Lao</a>
             </div>
         </li>
 
